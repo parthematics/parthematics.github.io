@@ -28,12 +28,12 @@ setInterval( function() {
 let colors = new Array(
   [89,   97, 100],
   [83,  120, 149],
-  [232, 140,  62],
+  [241, 90,  90],
   [106, 145, 129],
   [60,   21,  24],
-  [173,  43,  43],
+  [16, 165, 207],
   [151, 153,  19],
-  [88,  140,  57],
+  [239, 162, 9],
   [49,  135, 118]
 );
 
@@ -67,7 +67,7 @@ function updateGradient() {
 
   let gradientEl = document.getElementsByClassName("gradient")[0];
 
-  gradientEl.style.background = "linear-gradient(-45deg, " + color1 + " , " + color2 + ") scroll";
+  gradientEl.style.background = "linear-gradient(-30deg, " + color1 + " , " + color2 + ") scroll";
 
   step += gradientSpeed;
   if ( step >= 1 ){
